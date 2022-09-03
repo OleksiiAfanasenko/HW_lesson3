@@ -19,3 +19,7 @@ group_two = {"vegetables": "vegetarian",
 print(group_one.get("vegetables"))
 print(group_two.get("vegetables"))
 
+vip = ([], 1, 2, 3, 4, 5, 6, 7)
+almost = ([8, 9, 10, 11, 12])
+vip[0].append(almost)
+print(vip)
